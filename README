@@ -1,0 +1,10 @@
+Small script to save time during some riddles in some [Fallout games](https://en.wikipedia.org/wiki/Fallout_(series)).
+Mainly the one where the player has to "hack" computers based on some [Mastermind](https://en.wikipedia.org/wiki/Mastermind_(board_game)) logic
+
+Build from the root of the repo with
+
+    mvn package
+
+Run from the `target` directory with
+
+    java -cp "*" fr.turri.falloutSolver.ConsoleDriver
